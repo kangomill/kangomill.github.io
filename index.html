@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>日程選択フォーム</title>
+</head>
+<body>
+  <h2>日程選択フォーム</h2>
+
+  <form>
+    <label for="name">お名前：</label>
+    <input type="text" id="name" name="name" required>
+    <br><br>
+
+    <label for="date">ご希望の日程：</label>
+    <select id="date" name="date" required>
+      <option value="">選択してください</option>
+      <option value="2025-04-01">2025年4月1日</option>
+      <option value="2025-04-02">2025年4月2日</option>
+      <option value="2025-04-03">2025年4月3日</option>
+    </select>
+    <br><br>
+
+    <button type="submit">送信</button>
+  </form>
+</body>
+</html>
